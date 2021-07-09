@@ -1,0 +1,79 @@
+.card-style {
+  height: 280px;
+  width: 210px;
+  border: 0.7px solid lightgrey;
+  display: inline-block;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 0px;
+  background-color: #DAE0F7;
+  position:relative;
+  box-shadow: 0px 2px 15px -1px rgba(34, 60, 80, 0.25);
+  overflow: hidden;
+}
+.second-style{
+  height: 194px;
+  width: 135px;
+  background-color:white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+}
+.is-active{
+  height: 16px;
+  width: 52px;
+  left: 15px;
+  top: 12px;
+  font-family: 'Mulish', sans-serif;
+  border: 0.5px solid lightgrey;
+  border-radius: 15px;
+  background-color: rgba(196, 196, 196, 0.76);
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+.lower-part{
+ 
+ width: 100%;
+ top: 20px;
+ height: 100%;
+ position: relative;
+ background-color: white;
+ border-radius: 0px 0px 10px 10px;
+ z-index: 0;
+ 
+ 
+}
+.title-name{
+position:relative;
+top: -251px;
+z-index: 2;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: rgba(38, 57, 90, 1);
+font-style: normal;
+font-weight: 900;
+letter-spacing: 0em;
+text-align: left;
+left: 13px;
+width: 100%;
+}
+.data{
+  left:14px;
+  top: -248px;
+  position:relative;
+  font-size: 12px;
+  color: rgba(38, 57, 90, 1)
+}
+.options{
+  top: -284px;
+  left: 188px;
+  position:relative;
+  color: rgba(101, 120, 144, 1);
+}
